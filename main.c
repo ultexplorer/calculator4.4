@@ -153,7 +153,7 @@ int getch(void){
 //////////////////////////////////
 
 void push(double f){
-    if(sp<MAXVAL-1){
+    if(sp<MAXVAL){
         val[sp++]=f;
     }
     else{
